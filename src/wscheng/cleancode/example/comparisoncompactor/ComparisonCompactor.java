@@ -37,10 +37,22 @@ public class ComparisonCompactor {
     }
 
     public void compactExpectedAndActual() {
-        findCommonPrefix();
-        findCommonSuffix();
+        findCommonPrefixAndSuffix();
+
         compactExpected = compactString(expected);
         compactActual = compactString(actual);
+    }
+
+    private void findCommonPrefixAndSuffix() {
+        findCommonPrefix();
+        int expectedSuffix = expected.length() - 1;
+        int actualSuffix = actual.length() - 1;
+        for (; actualSuffix >= prefix && expectedSuffix >= prefix; actualSuffix--, expectedSuffix--) {
+            if (expected.charAt(expectedSuffix) != actual.charAt(actualSuffix)) {
+                break;
+            }
+        }
+        suffix = expected.length() - expectedSuffix;
     }
 
     private String compactString(String source) {
@@ -62,17 +74,6 @@ public class ComparisonCompactor {
                 break;
             }
         }
-    }
-
-    private void findCommonSuffix() {
-        int expectedSuffix = expected.length() - 1;
-        int actualSuffix = actual.length() - 1;
-        for (; actualSuffix >= prefix && expectedSuffix >= prefix; actualSuffix--, expectedSuffix--) {
-            if (expected.charAt(expectedSuffix) != actual.charAt(actualSuffix)) {
-                break;
-            }
-        }
-        suffix = expected.length() - expectedSuffix;
     }
 
     private String computeCommonPrefix() {
