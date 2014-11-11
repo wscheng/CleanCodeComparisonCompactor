@@ -26,11 +26,11 @@
       <file leaf-file-name="ComparisonCompactor.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/wscheng/cleancode/example/comparisoncompactor/ComparisonCompactor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4837963" vertical-offset="266" max-vertical-offset="1653">
-              <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+            <state vertical-scroll-proportion="0.3325062" vertical-offset="246" max-vertical-offset="1653">
+              <caret line="20" column="13" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="13" />
               <folding>
-                <element signature="e#1060#1061#0" expanded="true" />
-                <element signature="e#1139#1140#0" expanded="true" />
+                <element signature="e#1078#1079#0" expanded="true" />
+                <element signature="e#1157#1158#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -395,8 +395,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1634">
           <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
           <folding>
-            <element signature="e#1060#1061#0" expanded="true" />
-            <element signature="e#1139#1140#0" expanded="true" />
+            <element signature="e#1078#1079#0" expanded="true" />
+            <element signature="e#1157#1158#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -419,11 +419,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/wscheng/cleancode/example/comparisoncompactor/ComparisonCompactor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4837963" vertical-offset="266" max-vertical-offset="1653">
-          <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+        <state vertical-scroll-proportion="0.3325062" vertical-offset="246" max-vertical-offset="1653">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="13" />
           <folding>
-            <element signature="e#1060#1061#0" expanded="true" />
-            <element signature="e#1139#1140#0" expanded="true" />
+            <element signature="e#1078#1079#0" expanded="true" />
+            <element signature="e#1157#1158#0" expanded="true" />
           </folding>
         </state>
       </provider>
