@@ -22,7 +22,7 @@ public class ComparisonCompactor {
     }
 
     public String compact(String message) {
-        if (expected == null || actual == null || areStringsEqual()) {
+        if (shouldNotCompact()) {
             return Assert.format(message, expected, actual);
         }
 
@@ -33,6 +33,9 @@ public class ComparisonCompactor {
         return Assert.format(message, expected, actual);
     }
 
+    private boolean shouldNotCompact() {
+        return expected == null || actual == null || areStringsEqual();
+    }
     private String compactString(String source) {
         String result = DELTA_START + source.substring(prefix, source.length() - suffix + 1) + DELTA_END;
         if (prefix > 0) {
