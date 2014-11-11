@@ -22,19 +22,19 @@ public class ComparisonCompactor {
     }
 
     public String compact(String message) {
-        if (shouldNotCompact()) {
+        if (canBeCompacted()) {
+            findCommonPrefix();
+            findCommonSuffix();
+            String expected = compactString(this.expected);
+            String actual = compactString(this.actual);
+            return Assert.format(message, expected, actual);
+        } else {
             return Assert.format(message, expected, actual);
         }
-
-        findCommonPrefix();
-        findCommonSuffix();
-        String expected = compactString(this.expected);
-        String actual = compactString(this.actual);
-        return Assert.format(message, expected, actual);
     }
 
-    private boolean shouldNotCompact() {
-        return expected == null || actual == null || areStringsEqual();
+    private boolean canBeCompacted() {
+        return expected != null && actual != null && !areStringsEqual();
     }
     private String compactString(String source) {
         String result = DELTA_START + source.substring(prefix, source.length() - suffix + 1) + DELTA_END;
