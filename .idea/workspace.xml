@@ -23,28 +23,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ComparisonCompactor.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="ComparisonCompactor.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/wscheng/cleancode/example/comparisoncompactor/ComparisonCompactor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.448276" vertical-offset="829" max-vertical-offset="1976">
-              <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.56446993" vertical-offset="1076" max-vertical-offset="1881">
+              <caret line="67" column="22" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
               <folding>
                 <element signature="e#1034#1035#0" expanded="true" />
                 <element signature="e#1113#1114#0" expanded="true" />
-                <element signature="e#1896#1897#0" expanded="true" />
-                <element signature="e#1945#1946#0" expanded="true" />
-                <element signature="e#3187#3188#0" expanded="true" />
-                <element signature="e#3233#3234#0" expanded="true" />
+                <element signature="e#1850#1851#0" expanded="true" />
+                <element signature="e#1899#1900#0" expanded="true" />
+                <element signature="e#3048#3049#0" expanded="true" />
+                <element signature="e#3094#3095#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ComparisonCompactorTest.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ComparisonCompactorTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/wscheng/cleancode/example/comparisoncompactor/ComparisonCompactorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.1943734" vertical-offset="0" max-vertical-offset="1691">
-              <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="1691">
+              <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -343,7 +343,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -361,7 +361,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3290735" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -401,10 +401,10 @@
           <folding>
             <element signature="e#1034#1035#0" expanded="true" />
             <element signature="e#1113#1114#0" expanded="true" />
-            <element signature="e#1896#1897#0" expanded="true" />
-            <element signature="e#1945#1946#0" expanded="true" />
-            <element signature="e#3187#3188#0" expanded="true" />
-            <element signature="e#3233#3234#0" expanded="true" />
+            <element signature="e#1850#1851#0" expanded="true" />
+            <element signature="e#1899#1900#0" expanded="true" />
+            <element signature="e#3048#3049#0" expanded="true" />
+            <element signature="e#3094#3095#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -424,10 +424,10 @@
           <folding>
             <element signature="e#1034#1035#0" expanded="true" />
             <element signature="e#1113#1114#0" expanded="true" />
-            <element signature="e#1896#1897#0" expanded="true" />
-            <element signature="e#1945#1946#0" expanded="true" />
-            <element signature="e#3187#3188#0" expanded="true" />
-            <element signature="e#3233#3234#0" expanded="true" />
+            <element signature="e#1850#1851#0" expanded="true" />
+            <element signature="e#1899#1900#0" expanded="true" />
+            <element signature="e#3048#3049#0" expanded="true" />
+            <element signature="e#3094#3095#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -447,10 +447,10 @@
           <folding>
             <element signature="e#1034#1035#0" expanded="true" />
             <element signature="e#1113#1114#0" expanded="true" />
-            <element signature="e#1896#1897#0" expanded="true" />
-            <element signature="e#1945#1946#0" expanded="true" />
-            <element signature="e#3187#3188#0" expanded="true" />
-            <element signature="e#3233#3234#0" expanded="true" />
+            <element signature="e#1850#1851#0" expanded="true" />
+            <element signature="e#1899#1900#0" expanded="true" />
+            <element signature="e#3048#3049#0" expanded="true" />
+            <element signature="e#3094#3095#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -470,10 +470,10 @@
           <folding>
             <element signature="e#1034#1035#0" expanded="true" />
             <element signature="e#1113#1114#0" expanded="true" />
-            <element signature="e#1896#1897#0" expanded="true" />
-            <element signature="e#1945#1946#0" expanded="true" />
-            <element signature="e#3187#3188#0" expanded="true" />
-            <element signature="e#3233#3234#0" expanded="true" />
+            <element signature="e#1850#1851#0" expanded="true" />
+            <element signature="e#1899#1900#0" expanded="true" />
+            <element signature="e#3048#3049#0" expanded="true" />
+            <element signature="e#3094#3095#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -486,26 +486,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/wscheng/cleancode/example/comparisoncompactor/ComparisonCompactor.java">
+    <entry file="file://$PROJECT_DIR$/src/wscheng/cleancode/example/comparisoncompactor/ComparisonCompactorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.448276" vertical-offset="829" max-vertical-offset="1976">
-          <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-          <folding>
-            <element signature="e#1034#1035#0" expanded="true" />
-            <element signature="e#1113#1114#0" expanded="true" />
-            <element signature="e#1896#1897#0" expanded="true" />
-            <element signature="e#1945#1946#0" expanded="true" />
-            <element signature="e#3187#3188#0" expanded="true" />
-            <element signature="e#3233#3234#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="1691">
+          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/wscheng/cleancode/example/comparisoncompactor/ComparisonCompactorTest.java">
+    <entry file="file://$PROJECT_DIR$/src/wscheng/cleancode/example/comparisoncompactor/ComparisonCompactor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1943734" vertical-offset="0" max-vertical-offset="1691">
-          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
-          <folding />
+        <state vertical-scroll-proportion="0.56446993" vertical-offset="1076" max-vertical-offset="1881">
+          <caret line="67" column="22" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
+          <folding>
+            <element signature="e#1034#1035#0" expanded="true" />
+            <element signature="e#1113#1114#0" expanded="true" />
+            <element signature="e#1850#1851#0" expanded="true" />
+            <element signature="e#1899#1900#0" expanded="true" />
+            <element signature="e#3048#3049#0" expanded="true" />
+            <element signature="e#3094#3095#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

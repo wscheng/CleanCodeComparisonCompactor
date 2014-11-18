@@ -45,13 +45,12 @@ public class ComparisonCompactor {
 
     private void findCommonPrefixAndSuffix() {
         findCommonPrefix();
-        int suffixLength = 0;
+        suffixLength = 0;
         for (; !suffixOverlapsPrefix(suffixLength); suffixLength++) {
             if (charFromEnd(expected, suffixLength) != charFromEnd(actual, suffixLength)) {
                 break;
             }
         }
-        this.suffixLength = suffixLength;
     }
 
     private boolean suffixOverlapsPrefix(int suffixLength) {
@@ -64,12 +63,8 @@ public class ComparisonCompactor {
 
     private String compactString(String source) {
         String result = DELTA_START + source.substring(prefixLength, source.length() - suffixLength) + DELTA_END;
-        if (prefixLength > 0) {
-            result = computeCommonPrefix() + result;
-        }
-        if (suffixLength >= 0) {
-            result = result + computeCommonSuffix();
-        }
+        result = computeCommonPrefix() + result;
+        result = result + computeCommonSuffix();
         return result;
     }
 
